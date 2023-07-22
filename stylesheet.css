@@ -408,20 +408,3 @@ footer hr {
 @media only screen and (max-width : 480px) {
     .custom-nav.likecoin iframe{ max-width:95% !important; max-height:130px !important;}
 }
-
-/* Wider Image */
-@media screen and (max-width: 976px)
-.wide, .wide.left, .wide.right {
-    width: 100%;
-    margin: 0;
-}
-
-.wide {
-    width: 158.6666667%;
-    /*margin-left: -29.3333333%;*/
-    overflow: auto;
-}
-
-.wide {
-    overflow: visible!important;
-}
