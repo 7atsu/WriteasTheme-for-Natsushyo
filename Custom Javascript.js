@@ -1,3 +1,4 @@
+// Last updated May. 1, 2024 by Natsu.
 var address = location.hostname;
 
 var topP = document.createElement("p");
@@ -6,7 +7,7 @@ topP.innerHTML = '<div class="custom-nav"><a href="#"><img src="https://i.snap.a
 
 var customAdd = document.createElement("p");
 customAdd.style.display = "none";
-customAdd.innerHTML = '<div class="custom-nav likecoin"><p><img src="https://i.snap.as/rHuKRzB.png" alt="今回のブログは以上になります。最後までご覧いただきまして、ありがとうございました。" style="display: block; margin: 2px auto; width: 300px;"/><br /><img src="https://i.snap.as/vGjEbix.png" alt="➡️" style="height:26px; margin-right: 5px; float:left" ><em>如果你喜歡我的文字，幫我拍5個小手手， 也歡迎留言給我，謝謝你行動上的支持！</em></p><p>（回饋由 <a rel="nofollow"  href="https://like.co/">LikeCoin</a> 基金會出資，只要註冊/登入帳號，點 5 下 Like 就可以贊助我的文章。化讚為賞，支持創作。謝謝你！）</p><div style="display: table; margin: 0;"><iframe scrolling="no" frameborder="0" allowtransparency="true" width="480" height="180" src="https://button.like.co/in/embed/natsushyomatters/button?referrer=' + encodeURIComponent(location.href.split('?')[0].split('#')[0]) + '"></iframe></div></div><div id="disqus_thread"></div>';
+customAdd.innerHTML = '<div class="custom-nav likecoin"><p><img src="https://i.snap.as/rHuKRzB.png" alt="今回のブログは以上になります。最後までご覧いただきまして、ありがとうございました。" style="display: block; margin: 2px auto; width: 300px;"/><br /><img src="https://i.snap.as/vGjEbix.png" alt="➡️" style="height:26px; margin-right: 5px; float:left" ><em>如果你喜歡我的文字，幫我拍5個小手手， 也歡迎留言給我，謝謝你行動上的支持！</em></p><p>（回饋由 <a rel="nofollow"  href="https://like.co/">LikeCoin</a> 基金會出資，只要註冊/登入帳號，點 5 下 Like 就可以贊助我的文章。化讚為賞，支持創作。謝謝你！）</p><div style="display: block; margin: 0 auto;"><iframe style="display: block; margin: 0 auto;" scrolling="no" frameborder="0" allowtransparency="true" width="350" height="180" src="https://button.like.co/in/embed/natsushyomatters/button?referrer=' + encodeURIComponent(location.href.split('?')[0].split('#')[0]) + '"></iframe></div></div><div id="disqus_thread"></div>';
 
 var cont = document.getElementById("wrapper");
 if (cont !== null) {
@@ -101,6 +102,6 @@ if (address == "natsushyo.me") {
 }
 
 /* Custom Footer*/
-var customFooterHTML = '© 2023 <a rel="me" class="home pubd" href="https://natsu.day">夏</a><br />published with <a class="home pubd" href="https://write.as/">write.as</a>';
+var customFooterHTML = '© 2024 <a rel="me" class="home pubd" href="https://portaly.cc/Natsuho">夏</a><br />published with <a class="home pubd" href="https://write.as/">write.as</a>';
 var x = document.querySelector('footer').getElementsByTagName('nav')[0];
 x.innerHTML = customFooterHTML;
