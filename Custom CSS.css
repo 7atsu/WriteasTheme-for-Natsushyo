@@ -1,4 +1,4 @@
-/* Last updated Dec 1, 2024 by Natsu. */
+/* Last updated Jul 25, 2025 by Natsu. */
 @import url('https://edwardtufte.github.io/et-book/et-book.css');
 @import url('https://cdn.jsdelivr.net/gh/vdustr/hanamin/HanaMin.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap');
@@ -13,6 +13,7 @@
 	--main2: #181818; /* For title */
 	--background1: #fff; /* White */
 	--background2: #E8F1E1; /* Light Green */
+	--post-title-bg: url(https://i.snap.as/aNOq3d5.gif) no-repeat;
 }
 
 @media (min-width: 960px) {
@@ -145,7 +146,7 @@ article {
 
 .post-title {
 	width: 100%;
-	background: url(https://i.snap.as/aNOq3d5.gif) no-repeat;
+	background: var(--post-title-bg);
 	padding: 5px 0 5px 5px;
 	line-height: 1.8em;
 	text-align: left;
