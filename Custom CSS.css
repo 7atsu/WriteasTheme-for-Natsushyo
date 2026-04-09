@@ -223,7 +223,7 @@ article .book.e-content > p:first-child::first-letter, article .book.p-summary >
     font-weight: 500;
     line-height: 45.76px;
     margin: 0;
-    padding: 7px 4px 0 5px;
+    padding: 7px 7px 0 2px;
 }
 
 /* Links inside blog posts */
