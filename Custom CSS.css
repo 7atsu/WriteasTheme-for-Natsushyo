@@ -1,13 +1,22 @@
-/* Last updated Jul 25, 2025 by Natsu. */
+/* Last updated Apr 9, 2026 by Natsu. */
 @import url('https://edwardtufte.github.io/et-book/et-book.css');
-@import url('https://cdn.jsdelivr.net/gh/vdustr/hanamin/HanaMin.min.css');
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;500;600;700&family=Noto+Serif+SC:wght@400;500;600;700&family=Noto+Serif+JP:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: SweiSpring;
+  src: url(https://cdn.jsdelivr.net/gh/max32002/swei-spring@1.068/WebFont/CJK%20TC/SweiSpringCJKtc-Regular.woff2) format("woff2")
+  , url(https://cdn.jsdelivr.net/gh/max32002/swei-spring@1.068/WebFont/CJK%20TC/SweiSpringCJKtc-Regular.woff) format("woff");
+}
+@font-face {
+  font-family: SweiB2SerifCJKtc-Regular;
+  src: url(https://cdn.jsdelivr.net/gh/max32002/swei-b2-serif@1.0/WebFont/CJK%20TC/SweiB2SerifCJKtc-Regular.woff2) format("woff2")
+  , url(https://cdn.jsdelivr.net/gh/max32002/swei-b2-serif@1.0/WebFont/CJK%20TC/SweiB2SerifCJKtc-Regular.woff) format("woff");
+}
 
 :root {
 	--title-background: url(https://i.snap.as/21UwPfp.image) center no-repeat;
 	--description-background: url(https://i.snap.as/FgAX99U.png) top no-repeat;
-	--general-font-family: Lora, "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", Palatino, "Palatino Linotype", "Microsoft JhengHei", serif;
-	--article-font-family: et-book, Lora, HanaMin, "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	--general-font-family: Lora, "SweiSpring", "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", Palatino, "Palatino Linotype", "Microsoft JhengHei", serif;
+	--article-font-family: et-book, Lora, SweiB2SerifCJKtc-Regular, "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	--customnav-font-family: et-book, Lora, Palatino, "Noto Serif TC", "Noto Serif SC", "Noto Serif JP", "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
 	--main1: #444; /* For content */
 	--main2: #181818; /* For title */
